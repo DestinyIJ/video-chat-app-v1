@@ -1,0 +1,45 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.gridContainer {
+    width: 100px;
+}
+
+.container {
+    width: 600px;
+    margin: 35px 0;
+    padding: 0;
+}
+
+.paper {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.marginTop {
+    margin-top: 20px;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .gridContainer {
+        flex-direction: column;
+    }
+    .container {
+        width: 80%;
+    }
+}
+
+
+

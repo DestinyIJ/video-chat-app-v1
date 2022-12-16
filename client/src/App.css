@@ -1,0 +1,28 @@
+:root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.appBar {
+  display: flex;
+  border-radius: 15px;
+  margin: 30px 100px;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border: 2px solid black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 680px; */
+}
+
+@media screen and (max-width: 425px) {
+  .appBar {
+    width: 90%;
+  }
+}
